@@ -119,33 +119,7 @@
 #endif
 // #pragma once
 // end:: stdc++ header
-
-
-// Bài 19 Đường đi
-// Các nhà địa chất có nhiệm vụ khảo sát tìm khoáng sản ở một vùng đài nguyên mênh mông.
-// Thiết bị và nhu yếu phẩm được chở tới trại Trung tâm tại điểm có tọa độ (0, 0) trên bản đồ.
-// Nhóm khảo sát đi thăm dò từng điểm có tọa nguyên trên bản đồ. Nhóm di chuyển từ điểm có
-// tọa độ nguyên này tới điểm có tọa độ nguyên khác và luôn đi theo một trong các hướng
-// “Đông”(E), “Tây” (W), “Nam” (S) hoặc “Bắc” (N). Việc đổi hướng có thể được thực hiện tại
-// các điểm có tọa độ nguyên. Khoảng cách bằng một đơn vị tọa độ được gọi là bước. Đường đi
-// của họ được thiết bị tự động mang theo báo về dưới dạng xâu ghi nhận từng nhóm số bước di
-// chuyển và hướng. Ví dụ, dòng thông báo “7N5E2S3E” cho biết nhóm đã đi 7 bước theo hướng
-// nam, sau đó đi 5 bước về hướng đông, đi tiếp theo hướng bắc 2 bước rồi đi theo hướng đông 3
-// bước.
-// Có thể tại một nơi nào đó nhóm tìm thấy những mẫu vật đặc biệt, cần phân tích ngay để có
-// hành động phù hợp tiếp theo và yêu cầu Trung tâm gửi thiết bị bay tới lấy về. Các thiết bị bay
-// mang theo chỉ được lập trình cho đường bay theo các hướng E, W, S và N. Khi nạp thông báo
-// về hành trình của nhóm khảo sát vào bộ nhớ, các microchips trong máy bay sẽ tính toán, tìm
-// đường đi có xâu (biểu diễn dưới dạng của thiết bị ghi nhận đường đi đã nói ở trên) ngắn nhất.
-// Có nhiều cách ngắn nhất để đi tới đích. Hãy xác định một trong số các xâu biểu diễn đường đi
-// do thiết bị bay tạo ra. Đảm bảo đích cần tới không trùng với gốc tọa độ.
-// Dữ liệu: Vào từ file văn bản ROUTE.INP gồm một dòng chứa xâu độ dài không quá 250 xác
-// định hành trình của nhóm khảo sát. Các hệ số có giá trị nguyên dương và không vượt quá 107
-// .
-// Kết quả: Đưa ra file văn bản ROUTE.OUT xâu do thiết bị bay tạo ra.
-// Ví dụ:
-// ROUTE.INP  ROUTE.OUT
-// 7N5E2S3E   8E5
+ 
 using namespace std;
 #define NAME "ROUTE."
 #define LogsTime fo<<"\nTime:"<<clock()/(double)1000<<"sec"
